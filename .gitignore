@@ -1,0 +1,12 @@
+gradle-8.0/
+*.zip
+gradle/
+.gradle/
+gradle-8.0/
+gradle/
+.gradle/
+*.zip
+*.jar
+build/
+*.jks
+build.log

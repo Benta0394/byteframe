@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BYTEFRAME"
+        android:textColor="@color/neon_cyan"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve. Earn. Flex."
+        android:textColor="@color/text_white"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_cyan_border"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CARD A" android:textColor="@color/neon_cyan" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Free Play" android:textColor="@color/text_white" android:layout_marginTop="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_gold_border"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CARD B" android:textColor="@color/neon_gold" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Daily Puzzle" android:textColor="@color/text_white" android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/card_gold_border"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_marginTop="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CARD C - PRO" android:textColor="@color/neon_gold" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tournament • ₦500 Entry" android:textColor="@color/text_white" android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

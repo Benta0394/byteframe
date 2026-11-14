@@ -1,0 +1,7 @@
+<resources>
+    <color name="bg_dark">#060D1F</color>
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="neon_gold">#FFD54F</color>
+    <color name="card_bg">#0E1A33</color>
+    <color name="text_white">#E6F7FF</color>
+</resources>
